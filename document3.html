@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        body {
+            font-family: calibri;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 760px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #012169;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .header > * {
+            flex-grow: 1;
+        }
+        .header img {
+            width: 135px;
+        }
+        h1 {
+            color: #012169;
+            font-size: 30px;
+            font-weight: bold;
+            padding-right: 30px;
+        }
+        .email-div {
+            display: flex;
+            justify-content: space-between;
+        }
+        .underline-red-text {
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+        .red-text {
+            color: red;
+        }
+        table {
+            width: 100%;
+            border: 1px solid #012169;
+            border-collapse: collapse;
+        }
+        table td,
+        table th {
+            padding: 4px 7px;
+            border: 1px solid #012169;
+        }
+        table.no-border td,
+        table.no-border th {
+            border: 0;
+        }
+        .table-1 th {
+            color: #fff;
+            text-align: left;
+            background: #415c8f;
+            font-weight: 400;
+        }
+        .bg-grey-1 {
+            background: #012169;
+            color: #fff;
+        }
+        .bg-grey-2 {
+            background: rgb(65,92,143);
+            color: #fff;
+        }
+        .bg-grey-3 {
+            background: rgb(128,147,180);
+            color: #fff;
+        }
+        .text-center {
+            text-align: center !important;
+        }
+        .check-box {
+            border: 1px solid #000;
+            width: 12px;
+            height: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <b>FRM _ Contractor<br/>
+                Accommodation Booking Form _<br/>
+                TS TSF12.2
+            </b>
+            <div class="text-center">
+                <img src="./images/newlands-glencore.png" />
+            </div>
+            <b style="text-align: right;">Newlands Complex<br/>
+                Form</b>
+        </div>
+        
+        <h1 class="text-center">Glenden Contractor Accommodation Booking Form</h1>
+
+        <p>All accommodation booking forms for the Glenden Contractor Accommodation Complex must be directed to the
+        Newlands site contact who must get approval from the relevant Manager or Superintendent prior to sending to
+        Blackdown Accommodation Services for processing.</p>
+
+        <div class="email-div">
+           <b>email: <a href="mailto:adminglenden@blackdownservices.com.au">adminglenden@blackdownservices.com.au</a></b> 
+           <b>Tel: 07 4958 9229</b>
+        </div>
+
+        <p class="underline-red-text">All details including site authorisation MUST be completed before this booking can be accepted by Blackdown</p>
+
+        <table class="table-1">
+            <tr class="bg-grey-1 text-center">
+                <td colspan="4">
+                    <b>PART ONE - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company Details</b>
+                </td>
+            </tr>
+            <tr>
+                <td width="150">
+                    Name of Company:
+                </td>
+                <td colspan="3">
+                    Lorem Ipsum
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contact Name:
+                </td>
+                <td>
+                    Lorem Ipsum
+                </td>
+                <td width="100">
+                    Email:
+                </td>
+                <td>
+                    Lorem Ipsum
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td colspan="3">
+                    Lorem Ipsum
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    Lorem Ipsum
+                </td>
+                <td>
+                    Fax Number:
+                </td>
+                <td>
+                    Lorem Ipsum
+                </td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <table class="table-1">
+            <tr class="bg-grey-2 text-center">
+                <td>
+                    <b>PART TWO - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Names of person(s) requiring accommodation</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="red-text text-center" style="margin: 5px 0;"><b>(Attach separate sheet if insufficient space)</b></div>
+
+                    <table class="table-1">
+                        <tr>
+                            <td class="text-center">
+                                <b>Occupants Name</b>
+                            </td>
+                            <td class="text-center">
+                                <b>Date in</b>
+                            </td>
+                            <td class="text-center">
+                                <b>Date out</b>
+                            </td>
+                            <td class="text-center">
+                                <b>NOC,<br/>
+                                    CHPP,<br/>
+                                    TWNS, POA
+                                </b>
+                            </td>
+                            <td class="text-center">
+                                <b>Emergency Contact No.</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Lorem Ipsum
+                            </td>
+                            <td>
+                                Lorem Ipsum
+                            </td>
+                            <td>
+                                Lorem Ipsum
+                            </td>
+                            <td class="text-center">
+                                <b>NOC</b>
+                            </td>
+                            <td class="text-center">
+                                Lorem Ipsum
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td class="text-center">
+                                &nbsp;
+                            </td>
+                            <td class="text-center">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td class="text-center">
+                                &nbsp;
+                            </td>
+                            <td class="text-center">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="text-center">In making this booking the Company and employees to whom this booking applies agree to comply with the
+                        rules and conditions pertaining to the occupancy of the Glenden Contractor Accommodation Complex, and use
+                        of the Cafeteria facility.
+                        </p>
+                </td>
+            </tr>
+        </table>
+
+        <table class="table-1">
+            <tr class="bg-grey-3">
+                <td>
+                    <b>PART THREE - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newlands Authorisation</b>
+                </td>
+            </tr>
+            <tr>
+                <table class="no-border">
+                    <tr>
+                        <td width="50%" style="padding-top: 50px;">
+                            <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
+                            <b>Name of Newlands person making booking</b>
+                        </td>
+                        <td width="50%" style="padding-left: 50px;padding-top: 20px;">
+                            <div style="display: flex;">
+                                <b>Date</b>
+                                <div style="border-bottom: 1px solid;width:100%;"></div>/
+                                <div style="border-bottom: 1px solid;width:100%;"></div>/
+                                <div style="border-bottom: 1px solid;width:100%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" style="padding-top: 50px;">
+                            <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
+                            <b>Name of Newlands Authority</b>
+                        </td>
+                        <td width="50%" style="padding-left: 50px;padding-top: 50px;">
+                            <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
+                            <b>Signature</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" style="padding-top: 50px;">
+                            <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
+                            <b>Position</b>
+                            <div class="red-text">(<b>Minimum</b> Authority Superintendent)</div>
+                        </td>
+                        <td width="50%" style="padding-left: 50px;padding-top: 20px;">
+                            <div style="display: flex;">
+                                <b>Date</b>
+                                <div style="border-bottom: 1px solid;width:100%;"></div>/
+                                <div style="border-bottom: 1px solid;width:100%;"></div>/
+                                <div style="border-bottom: 1px solid;width:100%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+</html>
