@@ -59,7 +59,7 @@
         }
         table td,
         table th {
-            padding: 4px 7px;
+            padding: 3px 7px;
             border: 1px solid #012169;
         }
         table.no-border td,
@@ -91,6 +91,36 @@
             border: 1px solid #000;
             width: 12px;
             height: 12px;
+        }
+
+        .town-use {
+            color: #808080;
+            text-align: center;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            border-top: 2px solid #012169;
+            padding-top: 5px;
+            margin-top: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: #808080;
+        }
+        .footer p {
+            white-space: nowrap;
+        }
+        .footer table td,
+        .footer table th {
+            padding: 3px;
+        }
+        .footer table.no-border,
+        .footer table.no-border td,
+        .footer table.no-border th {
+            border: 0;
         }
     </style>
 </head>
@@ -277,7 +307,7 @@
             <tr>
                 <table class="no-border">
                     <tr>
-                        <td width="50%" style="padding-top: 50px;">
+                        <td width="50%" style="padding-top: 40px;">
                             <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
                             <b>Name of Newlands person making booking</b>
                         </td>
@@ -291,22 +321,22 @@
                         </td>
                     </tr>
                     <tr>
-                        <td width="50%" style="padding-top: 50px;">
+                        <td width="50%" style="padding-top: 35px;">
                             <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
                             <b>Name of Newlands Authority</b>
                         </td>
-                        <td width="50%" style="padding-left: 50px;padding-top: 50px;">
+                        <td width="50%" style="padding-left: 50px;padding-top: 35px;">
                             <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
                             <b>Signature</b>
                         </td>
                     </tr>
                     <tr>
-                        <td width="50%" style="padding-top: 50px;">
+                        <td width="50%" style="padding-top: 35px;">
                             <div style="border-bottom: 1px solid;margin-bottom: 3px;"></div>
                             <b>Position</b>
                             <div class="red-text">(<b>Minimum</b> Authority Superintendent)</div>
                         </td>
-                        <td width="50%" style="padding-left: 50px;padding-top: 20px;">
+                        <td width="50%" style="padding-left: 50px;padding-top: 0;">
                             <div style="display: flex;">
                                 <b>Date</b>
                                 <div style="border-bottom: 1px solid;width:100%;"></div>/
@@ -318,6 +348,42 @@
                 </table>
             </tr>
         </table>
+
+        <p class="town-use">
+            <b style="display: block;margin-bottom: 10px;">Town Office Use Only</b>
+            
+            Forecase update sent: <span style="display:inline-block;border-bottom: 1px solid;width: 40px;"></span>&nbsp;&nbsp;&nbsp;
+            Booking From emailed to Blackdown: <span style="display:inline-block;border-bottom: 1px solid;width: 40px;"></span>&nbsp;&nbsp;&nbsp;
+            Permanent Room Approved: Y / N
+        </p>
+
+        <div class="footer">
+            <table class="no-border">
+                <tr>
+                    <td>
+                        <b>Document ID:</b>&nbsp;&nbsp;&nbsp;&nbsp; HCROC-2119826548-968
+                    </td>
+                    <td>
+                        <b>Status:</b>&nbsp;&nbsp;&nbsp;&nbsp; Approved
+                    </td>
+                    <td>
+                        <b>Effective:</b>&nbsp;&nbsp;&nbsp;&nbsp; 28/02/2020
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Owner:</b>&nbsp;&nbsp;&nbsp;&nbsp; Superintendent - Village ＆ Infrastructure
+                    </td>
+                    <td>
+                        <b>Version:</b>&nbsp;&nbsp;&nbsp;&nbsp; 14.0
+                    </td>
+                    <td>
+                        <b>Review:</b>&nbsp;&nbsp;&nbsp;&nbsp; 28/02/2025
+                    </td>
+                </tr>
+            </table>
+            <p>Page 1 of 1</p>
+        </div>
 
     </div>
     
